@@ -22,7 +22,48 @@
         </nav>
         <a class="cta" href="contact.html"><button>Contact</button></a>
     </header>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #2196F3;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 60%; /* The width is 60%, by default */
+}
+
+.right {
+  background-color: #04AA6D;
+  padding: 20px;
+  float: left;
+  width: 20%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+</style>
+
 <h1>About</h1>
+
+<div id="navbar">
+
+<div style="padding:15px 15px 2500px;font-size:30px">
+</div>
+
 <script>
 // When the user scrolls down 20px from the top of the document, slide down the navbar
 window.onscroll = function() {scrollFunction()};
@@ -36,7 +77,6 @@ function scrollFunction() {
 }
 </script>
 </body>
+
 </html>
-
-
 
